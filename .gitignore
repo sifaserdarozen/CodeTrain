@@ -1,0 +1,11 @@
+lib/
+bin/
+tmp/
+cov-int/
+**gmon.out
+**perf.data*
+**callgrind.out*
+!/3rdParty/**
+doc/html
+doc/*.db
+
