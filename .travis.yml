@@ -1,5 +1,5 @@
-# choose standard distribution
-dist: standard
+# choose trusty for c++11
+dist: trusty
 
 language: cpp
 
