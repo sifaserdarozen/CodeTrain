@@ -1,0 +1,13 @@
+# choose standard distribution
+dist: standard
+
+language: cpp
+
+compiler: gcc
+
+script:
+  # compile code and build unit tests
+  - make
+  
+  # run catch unit tests
+  - find . -name utests -print | while read f; do ./"$f"; done

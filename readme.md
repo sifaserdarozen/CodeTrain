@@ -1,3 +1,5 @@
+#CodeTrain [![Build Status](https://travis-ci.org/sifaserdarozen/CodeTrain.png)](https://travis-ci.org/sifaserdarozen/CodeTrain)
+
 Solutions to some code training / challenge
 
 ### What is it?
