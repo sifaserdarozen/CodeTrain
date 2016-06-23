@@ -1,4 +1,4 @@
-Solutionsto some code training / challenge
+Solutions to some code training / challenge
 
 ### What is it?
 These are my solutions to some code trainings and challenges
@@ -19,7 +19,9 @@ Catch for unit tests https://github.com/philsquared/Catch
 
 ### License
 Please check individual licanse information of used 3rd parties. 
-Questions / challenges at directories;
+
+Questions / challenges at directories belongs to;
 * ./codility belongs to www.codility.com
+
 All remaining part is MIT.
 
