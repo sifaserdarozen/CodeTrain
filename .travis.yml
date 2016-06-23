@@ -1,9 +1,15 @@
+sudo: required
+
 # choose trusty for c++11
 dist: trusty
 
 language: cpp
 
 compiler: gcc
+
+before_install:
+  #update before start
+  - sudo apt-get update -qq
 
 script:
   # compile code and build unit tests
