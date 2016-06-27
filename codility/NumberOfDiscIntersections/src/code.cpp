@@ -32,7 +32,7 @@ int solution(std::vector<int> &A) {
     // write your code in C++11 (g++ 4.8.2)
     
     // get size of array to avoid multiple size get
-    int N = A.size();
+    unsigned int N = A.size();
     
     std::vector<Circle> Ac(N);
    
@@ -47,28 +47,28 @@ int solution(std::vector<int> &A) {
     
     for (unsigned int index = 0; index < N; ++index)
     {
-        int x = Ac[N -1 -index].m_x;
+        unsigned int x = Ac[N -1 -index].m_x;
         int r = Ac[N -1 - index].m_r;
         
-        int lb = std::max(0, (x-2*r));
-        int la = std::max(0, x-r);
-        int ha = std::min((N-1), x+r);
-        int hb = std::min((N-1), x+2*r);
+        unsigned int lb = std::max(0, (((int)x-r)-r));
+        unsigned int la = std::max(0, (int)x-r);
+        unsigned int ha = std::min((long long int)(N-1), (long long int)x + r);
+        unsigned int hb = std::min((long long int)(N-1), ((long long int)x + r) + r);
         
-        for (int ii = lb; ii < la; ++ii)
-            if ((A[ii] <= r) && (A[ii] >= (x - r -ii)))
+        for (unsigned int ii = lb; ii < la; ++ii)
+            if ((A[ii] <= r) && (A[ii] >= ((x - r) -ii)))
                 intersections ++;
 
-        for (int ii = la; ii < (x); ++ii)
+        for (unsigned int ii = la; ii < (x); ++ii)
             if (A[ii] <= r)
                 intersections ++;
 
-        for (int ii = (x+1); ii <= ha; ++ii)
+        for (unsigned int ii = (x+1); ii <= ha; ++ii)
             if (A[ii] < r)
                 intersections ++;
 
-        for (int ii = (ha + 1); ii <= hb; ++ii)
-            if ((A[ii] < r) && (A[ii] >= ii -x -r))
+        for (unsigned int ii = (ha + 1); ii <= hb; ++ii)
+            if ((A[ii] < r) && (A[ii] >= (ii -x) -r))
                 intersections ++;           
     }
     
