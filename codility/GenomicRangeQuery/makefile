@@ -6,6 +6,8 @@ LIB_DIR= ./lib
 INCLUDE= -I../../3rdParty/catch
 
 CPP_OPTIONS= -Wall -g -std=c++11
+#disable warnings about unknown pragmas since catch gives one forevery REQUIRE()
+CPP_OPTIONS+= -Wno-unknown-pragmas
 
 OPERATING_SYSTEM= $(shell uname -o)
 
