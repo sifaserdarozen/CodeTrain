@@ -20,3 +20,27 @@ TEST_CASE( "Codility tests case", "[solution]"  )
         REQUIRE( 11 == solution(A));
     }
 }
+
+TEST_CASE( "Extra tests cases", "[solution]"  )
+{
+    SECTION( "three same element set" )
+    {
+        std::vector<int> A = {1, 1, 1};
+        REQUIRE( 3 == solution(A));
+    }
+    SECTION( "alternating small set" )
+    {
+        std::vector<int> A = {1, 0, 1, 0, 1};
+        REQUIRE( 6 == solution(A));
+    }
+    SECTION( "extreme radius set" )
+    {
+        std::vector<int> A = {1, 2147483647, 0};
+        REQUIRE( 2 == solution(A));
+    }
+    SECTION( "non intersecting set" )
+    {
+        std::vector<int> A = {0, 0, 0};
+        REQUIRE( 0 == solution(A));
+    }
+}

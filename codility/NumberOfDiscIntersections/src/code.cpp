@@ -10,14 +10,12 @@
 
 #define MAX_INTERSECTIONS 10000000
 
-struct Circle
+long long int CombinationOfTwo(int n)
 {
-    unsigned int m_x;
-    int m_r;
-    Circle(): m_x(0), m_r(0) {}
-    Circle(unsigned int x, int r): m_x(x), m_r(r) {}
-    bool operator < (const Circle& rh) const {return m_r < rh.m_r;}
-};
+    if ( n < 2)
+        return 0;
+    return ((long long int)n * (n - 1)) / 2;
+}
 
 /** @brief function returns number of disc intersections
  * 
@@ -34,42 +32,39 @@ int solution(std::vector<int> &A) {
     // get size of array to avoid multiple size get
     unsigned int N = A.size();
     
-    std::vector<Circle> Ac(N);
-   
-    // put elements of vactor to struct type
-    for (unsigned int index = 0; index < N; ++index)
-        Ac[index] = Circle(index, A[index]);
+    // do a sanity check
+    if (N < 2)
+        return 0;
     
-    // sort input vector
-    std::sort(Ac.begin(), Ac.end());
-      
-    int intersections = 0;
+    std::vector<int> circle_starts(N);
+    std::vector<int> circle_ends(N);
     
-    for (unsigned int index = 0; index < N; ++index)
+    // initialize vectors with zero
+    for (unsigned int i = 0; i < N; ++i)
     {
-        unsigned int x = Ac[N -1 -index].m_x;
-        int r = Ac[N -1 - index].m_r;
+        circle_starts[i] = 0;
+        circle_ends[i] = 0;
+    }
+    
+    // now iterate through vector A to find number of circle starts and ends at each index
+    for (unsigned int i = 0; i < N; ++i)
+    {
+        int r = A[i];
         
-        unsigned int lb = std::max(0, (((int)x-r)-r));
-        unsigned int la = std::max(0, (int)x-r);
-        unsigned int ha = std::min((long long int)(N-1), (long long int)x + r);
-        unsigned int hb = std::min((long long int)(N-1), ((long long int)x + r) + r);
+        int start_point = std::max(0, ((int)i - r));
+        int end_point = std::min((N-1), (i + (unsigned int)r));
         
-        for (unsigned int ii = lb; ii < la; ++ii)
-            if ((A[ii] <= r) && (A[ii] >= ((x - r) -ii)))
-                intersections ++;
-
-        for (unsigned int ii = la; ii < (x); ++ii)
-            if (A[ii] <= r)
-                intersections ++;
-
-        for (unsigned int ii = (x+1); ii <= ha; ++ii)
-            if (A[ii] < r)
-                intersections ++;
-
-        for (unsigned int ii = (ha + 1); ii <= hb; ++ii)
-            if ((A[ii] < r) && (A[ii] >= (ii -x) -r))
-                intersections ++;           
+        circle_starts[start_point] ++;
+        circle_ends[end_point] ++;
+    }
+    
+    int active_circles = circle_starts[0] - circle_ends[0];    // for A[0] = 0
+    long long int intersections = CombinationOfTwo(active_circles);
+    for (unsigned int i = 1; i < N; ++i)
+    {
+        intersections += ((active_circles * circle_starts[i]) + CombinationOfTwo(circle_starts[i]));
+        active_circles += circle_starts[i];
+        active_circles -= circle_ends[i];
     }
     
     if (intersections > MAX_INTERSECTIONS)
