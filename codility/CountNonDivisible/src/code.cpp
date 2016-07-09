@@ -50,53 +50,49 @@ std::vector<int> solution(std::vector<int> &A) {
     {
         if (0 != primes[i])
             continue;
-        for (unsigned int k = i*i; k <= (unsigned int)maximum; ++k)
+        for (unsigned int k = i*i; k <= (unsigned int)maximum; k = k + i)
             if (0 == primes[k])
                 primes[k] = i;
     }
+    
+    // allocate a vector to count divisors of vector elements
+    std::vector<int> no_of_non_divisors(2*N + 1);
+    
+    for (unsigned int i = 0; i <= 2*N; ++i)
+    {
+       // std::cout << "-----------------------" << i << std::endl;
+        int number_of_divisors = 0;
+        if (0!=occurances[i])
+        {
+            std::set<int> local_divisors;
+            local_divisors.insert(1);
+            local_divisors.insert(i);
+            for (unsigned int ii = 2; (ii*ii) <= i; ++ii)
+            {
+                //std::cout << " ** " << ii << std::endl;
+                if (0 == i % ii)
+                {
+                    local_divisors.insert(ii);
+                    local_divisors.insert(i/ii);
+                }
+            }
+            // now count the number of divisors
 
-    // since we now have primes and counts, we may calculate
-    // occurances of non divisors
+            for (std::set<int>::iterator it = local_divisors.begin(); it != local_divisors.end(); it++)
+            {
+               // std::cout << "----" << *it << " " << occurances[*it] << std::endl;
+                number_of_divisors += occurances[*it];
+            }
+        }    
+        
+        no_of_non_divisors[i] = N-number_of_divisors;        
+    }
+
     std::vector<int> result(N);
     for (unsigned int i = 0; i < N; ++i)
     {
-        int target = A[i];
-        std::set<int> used_primes;
-        
-        int divisors = occurances[target];
-        used_primes.insert(target);
-        unsigned int past_set_size = 1;
-        
-        used_primes.insert(1);
-        if (past_set_size != used_primes.size())
-        {
-            divisors += occurances[1];
-            past_set_size++;
-        }
-
-        int smallest_prime = primes[target];
-        while ((0 != smallest_prime) && ((smallest_prime*smallest_prime) <= A[i]))
-        {
-            used_primes.insert(smallest_prime);
-            if (past_set_size != used_primes.size())
-            {
-                divisors += occurances[smallest_prime];
-                past_set_size++;
-            }
-            
-            target = A[i] / smallest_prime;
-            used_primes.insert(target);
-            if (past_set_size != used_primes.size())
-            {
-                divisors += occurances[target];
-                past_set_size++;
-            }
- 
-            smallest_prime = primes[target];        
-        }
-
-        result[i] = N - divisors;
+        result[i] = no_of_non_divisors[A[i]];
     }
-    
+
     return result;
 }

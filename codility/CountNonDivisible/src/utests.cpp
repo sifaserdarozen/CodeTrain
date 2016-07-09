@@ -24,10 +24,16 @@ TEST_CASE( "Codility tests case", "[solution]"  )
 
 TEST_CASE( "Extra tests", "[solution]"  )
 {
-    SECTION( "single element test " )
+    SECTION( "single element test" )
     {
         std::vector<int> A = {2};
         std::vector<int> result_reference ={0};
+        REQUIRE( result_reference == solution(A));
+    }
+    SECTION( "simple test" )
+    {
+        std::vector<int> A = {2, 1, 1, 11, 15, 3, 5, 6, 5, 2, 8};
+        std::vector<int> result_reference ={7, 9, 9, 8, 5, 8, 7, 5, 7, 7, 6};
         REQUIRE( result_reference == solution(A));
     }
 }
