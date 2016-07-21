@@ -1,6 +1,13 @@
 #makefile of training
 
-SUBDIRS= $(wildcard */.)
+#directories to discard
+DISCARD_DIRS= SqlSum/.
+
+#get all subdirectories
+ALL_SUBDIRS= $(wildcard */.)
+
+SUBDIRS= $(filter-out $(DISCARD_DIRS), $(ALL_SUBDIRS))
+
 TARGETS= link compile clean
 
 SUBDIRS_X_TARGETS= $(foreach t,$(TARGETS), $(addsuffix $t,$(SUBDIRS)))
