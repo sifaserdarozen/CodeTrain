@@ -16,23 +16,16 @@ TEST_CASE( "Codility tests case", "[solution]"  )
 {
     SECTION( "codility small test" )
     {
-        std::vector<int> A = {1, 4, -3};
-        REQUIRE( 1 == solution(A));
-    }
-    
-    SECTION( "codility bigger test" )
-    {
-        std::vector<int> A = {-8, 4, 5, -10, 3};
-        REQUIRE( 3 == solution(A));
+        std::vector<int> A = {1, 5, 2, -2};
+        REQUIRE( 0 == solution(A));
     }
 }
 
-TEST_CASE( "Extra tests cases", "[solution]"  )
+TEST_CASE( "Codility extra test", "[solution]"  )
 {
-    SECTION( "codility small test" )
+    SECTION( "codility extra test" )
     {
-        std::vector<int> A = {9, 5, 3, 4, 6, 9};
-        REQUIRE( 6 == solution(A));
+        std::vector<int> A = {3, 3, 3, 4, 5};
+        REQUIRE( 0 == solution(A));
     }
 }
-

@@ -12,41 +12,42 @@
 #include <iostream>
 
 
-/** @brief function returns the number of possible abs sum of pairs
+/** @brief function returns the number of possible minumun abs sum of weighted values
  * 
- *  Function returns minimum possible absolute value sum abs(A[i] + A[j])
- *  where 0 <=i,j<N, N is between [1 .. 100000]
- *  and each element of A, A[i] will be between [-1000000000 ... 1000000000]
+ *  Function returns minimum possible absolute sumof weighted values. A has values
+ *  in range [-100 .. 100] and A has length [0 .. 20000]
  * 
  *  @param A input vector
- *  @retun number of possible absolute sum of pairs
+ *  @retun minumum abs sum of weighted values
  */
 int solution(std::vector<int> &A)
 {
     // get size of flanks
     unsigned int N = A.size();
     
-    // sort the vector, complexity will be N*log(N)
-    std::sort(A.begin(), A.end());
+    std::vector<int> histogram(101, 0);
     
-    int min_abs = INT_MAX;
-    
-    unsigned int j = N-1;
+    // fill histogram
     for (unsigned int i = 0; i < N; ++i)
+        histogram[abs(A[i])] ++;
+        
+    int sum = 0;
+    int i= 101;
+    while (i > 0)
     {
-        int local_min = (std::abs(A[i] + A[j]));
-        while(j > i)
+        i--;
+        int no = histogram[i];
+        int total = no * i;
+        
+        if (0 == no)
+            continue;
+
+        while (total)
         {
-            if (std::abs(A[i] + A[j-1]) <= local_min)
-            {
-                local_min = (std::abs(A[i] + A[j-1]));
-                j--;
-            }
-            else
-                break;
+            sum = std::abs(sum - i);   
+            total -= i;
         }
-        min_abs = std::min(min_abs, local_min);
     }
     
-    return min_abs;
+    return sum;
 }
