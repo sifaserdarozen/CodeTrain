@@ -20,10 +20,11 @@ at the corresponding directory
 Catch for unit tests https://github.com/philsquared/Catch
 
 ### License
-Please check individual licanse information of used 3rd parties. 
+Please check individual licanse information of used 3rd parties.
 
 Questions / challenges at directories belongs to;
 * ./codility belongs to www.codility.com
+* ./hackerrank belongs to www.hackerrank.com
 
 All remaining part is MIT.
 
