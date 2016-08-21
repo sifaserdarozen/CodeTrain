@@ -1,7 +1,7 @@
 #makefile of training
 
 #directories to discard
-DISCARD_DIRS= CorrelationAndRegressionLines/.
+DISCARD_DIRS= CorrelationAndRegressionLines/. CorrelationAndRegressionLines2/.
 
 #get all subdirectories
 ALL_SUBDIRS= $(wildcard */.)
