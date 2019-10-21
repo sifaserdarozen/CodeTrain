@@ -29,8 +29,9 @@ int solution(std::vector<int> &A){
     
     for (unsigned int index = 0; index < N; ++index)
     {
-        if (A[index] <= N)
+        if (A[index] <= N) {
             unique_members.insert(A[index]);
+        }    
     }            
     
     return ((N == unique_members.size()) ? 1: 0);

@@ -4,8 +4,9 @@
 // you can write to stdout for debugging purposes, e.g.
 // cout << "this is a debug message" << endl;
 
-#include <algorithm>    // for std::sort()
+#include <algorithm>
 #include <iostream>
+#include <vector>
 
 /** @brief function returns the maximum number of possible slices
  * 

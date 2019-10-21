@@ -4,7 +4,8 @@
 // you can write to stdout for debugging purposes, e.g.
 // cout << "this is a debug message" << endl;
 
-#include <algorithm>    // for std::sort()
+#include <algorithm>
+#include <cmath>
 #include <iostream>
 
 /** @brief function returns the number of factors of a number N
@@ -23,12 +24,14 @@ int solution(int N) {
     // check factors up to sqrt(N), count twice in order to include D
     // as if N/F=D and N%F=0, so does N%D 
     int number_of_factors = 0;
-    for (unsigned int i = 1; i <= sqrt(N); ++i)
-        if (0 == (N % i))
-            if (i != (N/i))
+    for (unsigned int i = 1; i <= std::sqrt(N); ++i)
+        if (0 == (N % i)) {
+            if (i != (N/i)) {
                 number_of_factors += 2;
-            else
+            } else {
                 number_of_factors ++;
-            
+            }    
+        }  
+          
     return number_of_factors; 
 }

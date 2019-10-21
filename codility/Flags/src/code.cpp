@@ -4,8 +4,9 @@
 // you can write to stdout for debugging purposes, e.g.
 // cout << "this is a debug message" << endl;
 
-#include <algorithm>    // for std::sort()
+#include <algorithm>
 #include <iostream>
+#include <vector>
 
 /** @brief function returns the maximum number of flags that can be placed to peaks
  * 
@@ -65,14 +66,16 @@ int solution(std::vector<int>& A) {
         // check number of flags that may be put
         unsigned int no_of_flags = 0;
         unsigned int location_of_prev_peak = previous_peak_location[N-1];
-        if (0 != location_of_prev_peak)
+        if (0 != location_of_prev_peak) {
             no_of_flags ++;
+        }    
         
         while (location_of_prev_peak >= minimum_step)
         {
             location_of_prev_peak = previous_peak_location[location_of_prev_peak - minimum_step];
-            if (0 != location_of_prev_peak)
+            if (0 != location_of_prev_peak) {
                 no_of_flags ++;
+            }    
         }
         
         no_of_flags = std::min(no_of_flags, flags_taken);

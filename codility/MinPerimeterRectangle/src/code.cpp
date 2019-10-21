@@ -4,7 +4,8 @@
 // you can write to stdout for debugging purposes, e.g.
 // cout << "this is a debug message" << endl;
 
-#include <algorithm>    // for std::sort()
+#include <algorithm>
+#include <cmath>
 #include <stack>
 #include <iostream>
 
@@ -18,13 +19,13 @@
  *  @retun minimum possible perimeter conforming the area constraint
  */
 int solution(int N) {
-    // write your code in C++11 (g++ 4.8.2)
-    
     std::stack<int> divisors;
     
-    for (unsigned int i = 1; i <= sqrt(N); ++i)
-        if (0 == (N % i))
+    for (unsigned int i = 1; i <= sqrt(N); ++i) {
+        if (0 == (N % i)) {
             divisors.push(i);
+        }
+    }    
             
     return 2*(divisors.top() + (N / divisors.top())); 
 }
