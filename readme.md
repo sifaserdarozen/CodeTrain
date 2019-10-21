@@ -22,9 +22,13 @@ Catch for unit tests https://github.com/philsquared/Catch
 ### License
 Please check individual licanse information of used 3rd parties.
 
-Questions / challenges at directories belongs to;
+Personal solutions to some questions. Only for reference, no claim of correctness at all.
+For official information and answers please refer to corresponding sites given below;
+
+Questions / challenges belongs to;
 * ./codility belongs to www.codility.com
 * ./hackerrank belongs to www.hackerrank.com
+* ./cci belogs to www.crackingthecodinginterview.com
 
 All remaining part is MIT.
 
