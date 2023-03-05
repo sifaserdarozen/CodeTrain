@@ -1,7 +1,7 @@
 package solution
 
 // Compute Complexity = O(N)
-// Space Complexity = O(N)
+// Space Complexity = O(log(N))
 
 /**
  * Definition for a binary tree node.
