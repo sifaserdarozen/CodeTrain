@@ -1,5 +1,5 @@
 // Compute Complexity O(NM)
-// Space Complexity O(1)
+// Space Complexity O(log(N) + log(M))
 
 /**
  * Definition for a binary tree node.
