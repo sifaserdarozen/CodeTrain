@@ -10,6 +10,7 @@ These are my solutions to some code trainings and challenges
 | Problem | Solution | Go | C++ | Python |
 | :----------------------------- |:---------------:| :---------------:| :---------------: | :---------------: |
 | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/description/)    | [video](https://youtu.be/AgkI2wtOzqg) | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/0226-InvertBinaryTree/solution.go) | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/0226-InvertBinaryTree/solution.cpp) | [Python](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/0226-InvertBinaryTree/solution.py) | 
+| [2588. Count the Number of Beautiful Subarrays](https://leetcode.com/problems/count-the-number-of-beautiful-subarrays/description/)    | [video](https://youtu.be/XBd9SNdaHmc) | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/2588-CountTheNumberOfBeautifulSubarrays/solution.go) | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/2588-CountTheNumberOfBeautifulSubarrays/solution.cpp) | [Python](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/2588-CountTheNumberOfBeautifulSubarrays/solution.py) | 
 
 
 
