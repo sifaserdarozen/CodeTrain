@@ -1,18 +1,16 @@
-// Compute Complexity O(N*2^N)
-// Space Complexity O(N)
-
 func subsets(nums []int) [][]int {
-    if 0 == len(nums) {
-        return [][]int {[]int{}}
+    powerSet := make([][]int, 0)
+    powerSet = append(powerSet, []int{})
+
+    for _, v := range(nums) {
+        lenSet := len(powerSet)
+        for i := 0; i < lenSet; i++ {
+            copySet := make([]int, len(powerSet[i]))
+            copy(copySet, powerSet[i])
+            copySet = append(copySet, v)
+            powerSet = append(powerSet, copySet)
+        }
     }
-    last := nums[len(nums) - 1]
-    sets := subsets(nums[0:len(nums)-1])
-    setsSize := len(sets)
-    for i := 0; i < setsSize; i++ {
-        copyS := make([]int, len(sets[i]))
-        copy(copyS, sets[i])
-        copyS = append(copyS, last)
-        sets = append(sets, copyS)
-    }
-    return sets
+
+    return powerSet
 }
