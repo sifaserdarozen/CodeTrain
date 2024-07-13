@@ -19,6 +19,11 @@ These are my solutions to some code trainings and challenges
 | [3213. Construct String with Minimum Cost](https://leetcode.com/problems/construct-string-with-minimum-cost/description/)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3213-ConstructStringWithMinimumCost/solution.cpp) | Python |
 
 
+#### HackerRank
+| Problem | Solution | Go | C++ | Python |
+| :----------------------------- |:---------------:| :---------------:| :---------------: | :---------------: |
+| [Plus Minus](https://www.hackerrank.com/challenges/one-month-preparation-kit-plus-minus/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master//hackerrank/PlusMinus/solution.go) | C++ | Python | 
+
 
 ### License
 Please check individual licanse information of used 3rd parties.
