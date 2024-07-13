@@ -22,8 +22,8 @@ These are my solutions to some code trainings and challenges
 #### HackerRank
 | Problem | Solution | Go | C++ | Python |
 | :----------------------------- |:---------------:| :---------------:| :---------------: | :---------------: |
-| [Plus Minus](https://www.hackerrank.com/challenges/one-month-preparation-kit-plus-minus/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master//hackerrank/PlusMinus/solution.go) | C++ | Python | 
-
+| [Plus Minus](https://www.hackerrank.com/challenges/one-month-preparation-kit-plus-minus/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/PlusMinus/solution.go) | C++ | Python |
+| [Mini-Max Sum](https://www.hackerrank.com/challenges/one-month-preparation-kit-mini-max-sum/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/MinMaxSum/solution.go) | C++ | Python | 
 
 ### License
 Please check individual licanse information of used 3rd parties.
