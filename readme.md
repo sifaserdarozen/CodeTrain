@@ -17,15 +17,16 @@ These are my solutions to some code trainings and challenges
 | [3208. Alternating Groups II](https://leetcode.com/problems/alternating-groups-ii/description/)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/leetcode/3208-AlternatingGroupsII/solution.cpp) | Python |
 | [3212. Count Submatrices With Equal Frequency of X And Y](https://leetcode.com/problems/count-submatrices-with-equal-frequency-of-x-and-y/)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3212-CountSubmatricesWithEqualFrequencyOfXAndY/solution.go) | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3212-CountSubmatricesWithEqualFrequencyOfXAndY/solution.cpp) | Python |
 | [3213. Construct String with Minimum Cost](https://leetcode.com/problems/construct-string-with-minimum-cost/description/)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3213-ConstructStringWithMinimumCost/solution.cpp) | Python |
+| [3217. Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3217-DeleteNodesFromLinkedListPresentInArray/solution.cpp) | Python |
 
 
 #### HackerRank
 | Problem | Solution | Go | C++ | Python |
 | :----------------------------- |:---------------:| :---------------:| :---------------: | :---------------: |
 | [Plus Minus](https://www.hackerrank.com/challenges/one-month-preparation-kit-plus-minus/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/PlusMinus/solution.go) | C++ | Python |
-| [Mini-Max Sum](https://www.hackerrank.com/challenges/one-month-preparation-kit-mini-max-sum/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/MinMaxSum/solution.go) | C++ | Python |
-| [Time Conversion](https://www.hackerrank.com/challenges/one-month-preparation-kit-time-conversion/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/TimeConversion/solution.go) | C++ | Python | 
-| [Sparse Arrays](https://www.hackerrank.com/challenges/one-month-preparation-kit-sparse-arrays/problem)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master//SparseArrays/solution.cpp) | Python | 
+| [Mini-Max Sum](https://www.hackerrank.com/challenges/one-month-preparation-kit-mini-max-sum/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/MinMaxSum/solution.go) | C++ | Python |
+| [Time Conversion](https://www.hackerrank.com/challenges/one-month-preparation-kit-time-conversion/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/TimeConversion/solution.go) | C++ | Python | 
+| [Sparse Arrays](https://www.hackerrank.com/challenges/one-month-preparation-kit-sparse-arrays/problem)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/SparseArrays/solution.cpp) | Python | 
 
 ### License
 Please check individual licanse information of used 3rd parties.
