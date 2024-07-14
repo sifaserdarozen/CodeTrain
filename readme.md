@@ -30,6 +30,7 @@ These are my solutions to some code trainings and challenges
 | [Lonely Integer](https://www.hackerrank.com/challenges/one-month-preparation-kit-lonely-integer/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/LonelyInteger/solution.go) | C++ | Python | 
 | [Flipping Bits](https://www.hackerrank.com/challenges/one-month-preparation-kit-flipping-bits/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/FlippingBits/solution.go) | C++ | Python | 
 | [Diagonal Difference](https://www.hackerrank.com/challenges/one-month-preparation-kit-diagonal-difference/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/DiagonalDifference/solution.go) | C++ | Python | 
+| [Counting Sort 1](https://www.hackerrank.com/challenges/one-month-preparation-kit-countingsort1/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/CountingSortI/solution.go) | C++ | Python | 
 
 
 ### License
