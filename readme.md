@@ -27,6 +27,7 @@ These are my solutions to some code trainings and challenges
 | [Mini-Max Sum](https://www.hackerrank.com/challenges/one-month-preparation-kit-mini-max-sum/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/MinMaxSum/solution.go) | C++ | Python |
 | [Time Conversion](https://www.hackerrank.com/challenges/one-month-preparation-kit-time-conversion/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/TimeConversion/solution.go) | C++ | Python | 
 | [Sparse Arrays](https://www.hackerrank.com/challenges/one-month-preparation-kit-sparse-arrays/problem)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/SparseArrays/solution.cpp) | Python | 
+| [Lonely Integer](https://www.hackerrank.com/challenges/one-month-preparation-kit-lonely-integer/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/LonelyInteger/solution.go) | C++ | Python | 
 
 ### License
 Please check individual licanse information of used 3rd parties.
