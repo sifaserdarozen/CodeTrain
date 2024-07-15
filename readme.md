@@ -34,6 +34,7 @@ These are my solutions to some code trainings and challenges
 | [Pangrams](https://www.hackerrank.com/challenges/one-month-preparation-kit-pangrams/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/Pangrams/solution.go) | C++ | Python | 
 | [Permuting Two Arrays](https://www.hackerrank.com/challenges/one-month-preparation-kit-two-arrays/problem)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/PermutingTwoArrays/solution.cpp) | Python | 
 | [Subarray Division 1](https://www.hackerrank.com/challenges/one-month-preparation-kit-the-birthday-bar/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/SubarrayDivisionI/solution.go) | C++ | Python | 
+| [XOR Strings 2](https://www.hackerrank.com/challenges/one-month-preparation-kit-strings-xor/problem)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/XORStringsII/solution.cpp) | Python | 
 
 ### License
 Please check individual licanse information of used 3rd parties.
