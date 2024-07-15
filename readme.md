@@ -31,7 +31,7 @@ These are my solutions to some code trainings and challenges
 | [Flipping Bits](https://www.hackerrank.com/challenges/one-month-preparation-kit-flipping-bits/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/FlippingBits/solution.go) | C++ | Python | 
 | [Diagonal Difference](https://www.hackerrank.com/challenges/one-month-preparation-kit-diagonal-difference/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/DiagonalDifference/solution.go) | C++ | Python | 
 | [Counting Sort 1](https://www.hackerrank.com/challenges/one-month-preparation-kit-countingsort1/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/CountingSortI/solution.go) | C++ | Python | 
-
+| [Pangrams](https://www.hackerrank.com/challenges/one-month-preparation-kit-pangrams/problem)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/Pangrams/solution.go) | C++ | Python | 
 
 ### License
 Please check individual licanse information of used 3rd parties.
