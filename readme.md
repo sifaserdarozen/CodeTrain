@@ -40,6 +40,7 @@ These are my solutions to some code trainings and challenges
 | [Drawing Book](https://www.hackerrank.com/challenges/one-month-preparation-kit-drawing-book/problem)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/DrawingBook/solution.go) | Python | 
 | [Caesar Cipher](https://www.hackerrank.com/challenges/one-month-preparation-kit-caesar-cipher-1/problem)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/CaesarCipher/solution.cppp) | Python | 
 | [Max Min](https://www.hackerrank.com/challenges/one-month-preparation-kit-angry-children/problem)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/MaxMin/solution.cpp) | Python | 
+| [Sum vs XOR](https://www.hackerrank.com/challenges/one-month-preparation-kit-sum-vs-xor/problem)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/SumVsXOR/solution.cpp) | Python | 
 
 
 ### License
