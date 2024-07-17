@@ -39,6 +39,7 @@ These are my solutions to some code trainings and challenges
 | [ZigZagSequence](https://www.hackerrank.com/challenges/one-month-preparation-kit-zig-zag-sequence/problem)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/ZigZagSequence/solution.cpp) | Python | 
 | [Drawing Book](https://www.hackerrank.com/challenges/one-month-preparation-kit-drawing-book/problem)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/DrawingBook/solution.go) | Python | 
 | [Caesar Cipher](https://www.hackerrank.com/challenges/one-month-preparation-kit-caesar-cipher-1/problem)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/CaesarCipher/solution.cppp) | Python | 
+| [Max Min](https://www.hackerrank.com/challenges/one-month-preparation-kit-angry-children/problem)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/hackerrank/MaxMin/solution.cpp) | Python | 
 
 
 ### License
