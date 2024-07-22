@@ -20,6 +20,7 @@ These are my solutions to some code trainings and challenges
 | [3217. Delete Nodes From Linked List Present in Array](https://leetcode.com/problems/delete-nodes-from-linked-list-present-in-array/description/)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3217-DeleteNodesFromLinkedListPresentInArray/solution.cpp) | Python |
 | [3223. Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3223-MinimumLengthOfStringAfterOperations/solution.go) | C++ | Python |
 | [3227. Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/description/)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3227-VowelsGameInAString/solution.go) | C++ | Python |
+| [3228. Maximum Number of Operations to Move Ones to the End](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/description/)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3228-MaximumNumberOfOperationsToMoveOnesToTheEnd/solution.go) | C++ | Python |
 
 
 
