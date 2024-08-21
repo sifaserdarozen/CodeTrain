@@ -21,6 +21,7 @@ These are my solutions to some code trainings and challenges
 | [3223. Minimum Length of String After Operations](https://leetcode.com/problems/minimum-length-of-string-after-operations/description/)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3223-MinimumLengthOfStringAfterOperations/solution.go) | C++ | Python |
 | [3227. Vowels Game in a String](https://leetcode.com/problems/vowels-game-in-a-string/description/)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3227-VowelsGameInAString/solution.go) | C++ | Python |
 | [3228. Maximum Number of Operations to Move Ones to the End](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/description/)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3228-MaximumNumberOfOperationsToMoveOnesToTheEnd/solution.go) | C++ | Python |
+| [3255. Find the Power of K-Size Subarrays II](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/description/)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3255-FindThePowerOfKSizeSubarraysII/solution.go) | C++ | Python |
 | [3257. Maximum Value Sum by Placing Three Rooks II](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-ii/description/)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3257-MaximumValueSumByPlacingThreeRooksII/solution.cpp) | Python |
 
 
