@@ -1,8 +1,6 @@
 // Compute complexity O(N)
 // Space complexity O(N)
 
-package journal
-
 type Stack[T any] struct {
 	items []T
 }
