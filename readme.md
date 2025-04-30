@@ -29,6 +29,7 @@ These are my solutions to some code trainings and challenges
 | [3228. Maximum Number of Operations to Move Ones to the End](https://leetcode.com/problems/maximum-number-of-operations-to-move-ones-to-the-end/description/)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3228-MaximumNumberOfOperationsToMoveOnesToTheEnd/solution.go) | C++ | Python |
 | [3255. Find the Power of K-Size Subarrays II](https://leetcode.com/problems/find-the-power-of-k-size-subarrays-ii/description/)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3255-FindThePowerOfKSizeSubarraysII/solution.go) | C++ | Python |
 | [3257. Maximum Value Sum by Placing Three Rooks II](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-ii/description/)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3257-MaximumValueSumByPlacingThreeRooksII/solution.cpp) | Python |
+| [3527. Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/description)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3527.FindTheMostCommonResponse/solution.go) | C++ | Python |
 
 
 #### HackerRank
