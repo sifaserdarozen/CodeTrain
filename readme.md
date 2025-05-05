@@ -31,6 +31,7 @@ These are my solutions to some code trainings and challenges
 | [3257. Maximum Value Sum by Placing Three Rooks II](https://leetcode.com/problems/maximum-value-sum-by-placing-three-rooks-ii/description/)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3257-MaximumValueSumByPlacingThreeRooksII/solution.cpp) | Python |
 | [3527. Find the Most Common Response](https://leetcode.com/problems/find-the-most-common-response/description)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3527.FindTheMostCommonResponse/solution.go) | C++ | Python |
 | [3528. Unit Conversion I](https://leetcode.com/problems/unit-conversion-i/description/)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3528-UnitConversionI/solution.cpp) | Python |
+| [3537. Fill a Special Grid](https://leetcode.com/problems/fill-a-special-grid/)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3537-FillaSpecialGrid/solution.cpp) | Python |
 
 #### HackerRank
 | Problem | Solution | Go | C++ | Python |
