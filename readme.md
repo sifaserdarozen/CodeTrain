@@ -34,6 +34,7 @@ These are my solutions to some code trainings and challenges
 | [3529. Count Cells in Overlapping Horizontal and Vertical Substrings](https://leetcode.com/problems/count-cells-in-overlapping-horizontal-and-vertical-substrings/description/)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3529-CountCellsInOverlappingHorizontalAndVerticalSubstrings/solution.go) | C++ | Python |
 | [3537. Fill a Special Grid](https://leetcode.com/problems/fill-a-special-grid/)    | video | Go | [C++](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3537-FillaSpecialGrid/solution.cpp) | Python |
 | [3546. Equal Sum Grid Partition I](https://leetcode.com/problems/equal-sum-grid-partition-i/description/)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3546-EqualSumGridPartitionI/solution.go) | C++ | Python |
+| [3557. Find Maximum Number of Non Intersecting Substrings](https://leetcode.com/problems/find-maximum-number-of-non-intersecting-substrings/description/)    | video | [Go](https://github.com/sifaserdarozen/CodeTrain/blob/master/leetcode/3557-FindMaximumNumberOfNonIntersectingSubstrings/solution.go) | C++ | Python |
 
 
 #### HackerRank
